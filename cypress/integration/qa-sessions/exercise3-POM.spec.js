@@ -1,4 +1,4 @@
-import * as flight_actions from "../../fixtures/flights/actions/flight_actions"
+import * as flight_actions from "../../fixtures/flights/flight_actions"
 
 describe('Exercise 3 - POM', function () {
     before(() => {

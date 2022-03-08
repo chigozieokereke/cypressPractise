@@ -1,4 +1,4 @@
-import flights_search_po from "../pageObjects/flights_search_po";
+import flights_search_po from "./flights_search_po";
 
 export function clickDirectFlights() {
   cy.get(flights_search_po.directFlightsOnlyRadioButton)
