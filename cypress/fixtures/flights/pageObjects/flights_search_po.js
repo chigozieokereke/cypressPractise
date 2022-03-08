@@ -4,9 +4,9 @@ const flights_search_po = {
     oneStopOrLessRadioButton: "[data-testid='one_stop_or_less_stops_filter_enabled']",
     twoStopsOrLessRadioButton: "data-testid='two_stops_or_less_stops_filter_enabled']",
 
-    showAllAirlinesLink: "[href='#']",
-    saudiAirlineCheckBox: "",
-    select_flight_button_po: "[data-testid='Group0__SelectFlightButton']",
+    showAllAirlinesLink: "[role='button'][href='#']",
+    saudiAirlineCheckBox: "[data-testid='FlightSearchResult__AirlinesFilter__Airline_SV_Checkbox']",
+    selectFlightButton: "[data-testid='Group0__SelectFlightButton']",
 }
 export default flights_search_po;
 

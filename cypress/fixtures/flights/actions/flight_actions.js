@@ -1,19 +1,20 @@
-import flight_search_po from "../flights/flight_search_po";
+import flights_search_po from "../pageObjects/flights_search_po";
 
-//click direct flights only raido button
 export function clickDirectFlights() {
-  cy.get(flight_search_po.direct_flights_only_po)
+  cy.get(flights_search_po.directFlightsOnlyRadioButton)
     .click({ force: true })
 }
-
-//click show all airlines link
 export function clickShowAllAirlinesLink() {
-    cy.get(flight_search_po.airline_show_all_po)
-      .click
+    cy.get(flights_search_po.showAllAirlinesLink)
+      .first().click()
   }
 
-  //click show all airlines link
-export function selectAirlines() {
-    cy.get(flight_search_po.airline_show_all_po)
-      .click
+export function selectSaudiAirline() {
+    cy.get(flights_search_po.saudiAirlineCheckBox)
+    .click({ force: true })
+  }
+
+  export function selectFlight() {
+    cy.get(flights_search_po.selectFlightButton)
+    .click({ force: true })
   }
