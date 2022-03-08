@@ -1,7 +1,6 @@
-
 import * as flight_actions from "../../fixtures/flights/actions/flight_actions"
 
-describe('Exercise 3', function () {
+describe('Exercise 3 - POM', function () {
     before(() => {
         cy.visit('https://next-staging-ae.almosafer.com/en/flights/DXB-JED/2022-05-22/2022-05-25/Economy/1Adult');
     })

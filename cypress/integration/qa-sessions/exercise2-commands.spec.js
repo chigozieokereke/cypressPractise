@@ -1,4 +1,4 @@
-describe('Exercise Two', function () {
+describe('Exercise Two - Commands', function () {
     before(() => {
         cy.visit('https://qa-frontend-cypress.s3.eu-west-1.amazonaws.com/cypress-session2.html');
     })
