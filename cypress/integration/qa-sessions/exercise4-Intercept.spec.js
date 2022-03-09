@@ -1,7 +1,7 @@
 import * as login_actions from "../../fixtures/login/login_actions"
 import testConst from "../../fixtures/constants";
 
-describe('Exercise 3 - POM', function () {
+describe('Exercise 4 - Intercept', function () {
     before(() => {
         cy.visit('https://next-staging-ae.almosafer.com/en');
     })
